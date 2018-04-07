@@ -5,10 +5,10 @@
  * Stack memory - Variables allocated on the stack are stored directly to the memory.
             
        Ex:
-         String str = new String("Java");
+         String str = new String("Java");   // new keyword creates new memory allocation on heap memory
          String str1 = new String("Java");
-         String str2 = "Java";
-         String str3 = "Java";
+         String str2 = "Java";  // String datatype creates new allocation
+         String str3 = "Java"; // second time for same data --> String datatype don't create new, it will point to the same allocation 
            str => &4000 => Java*   
            str1 => &5000 => Java*
            str2 => &6000 => Java <= str3
