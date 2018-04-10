@@ -12,6 +12,13 @@
            str => &4000 => Java*   
            str1 => &5000 => Java*
            str2 => &6000 => Java <= str3
+ ## Exception
+   * Exception is an event that disrupts the normal flow of the program.
+   try
+   catch
+   finally
+   throw
+   throws
 
  ## Maven Project  
   * Build / Project Management Tool
