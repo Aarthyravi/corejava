@@ -11,8 +11,8 @@
  
       * .jar --> java archive -> core Java 
       * .war --> web archive -> core java + adv.java + HTML +serverlet
-      * .ear --> Enterprise archive ->  core java + adv.java + HTML +serverlet + EJB(Enterprise JavaBeans that is the server-side  
-                                                                                         component architecture for Java Platform)
+      * .ear --> Enterprise archive ->  core java + adv.java + HTML +serverlet + EJB(Enterprise JavaBeans that is the 
+                 server-side component architecture for Java Platform)
  
  ## String
  * String pool - String pool which is used to store the String values in Java(Collection memory of string type)
