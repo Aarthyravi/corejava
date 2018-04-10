@@ -22,3 +22,23 @@
 
  ## Maven Project  
   * Build / Project Management Tool
+  
+  maven defaultly take, JDK 1.5 version go to pom.xml and add the following build plugin to update the project to take jdk version 1.8
+
+     <build>
+      <plugins>
+       <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.2</version>
+        <configuration>
+         <source>1.8</source>
+         <target>1.8</target>
+        </configuration>
+       </plugin>
+      </plugins>
+     </build>
+     
+  * Again goto Maven Project(helloworld)-->right click --> Refresh   
+  * goto maven project --> right click ---> Maven ---> Update Project...
+  wow... Suddenly Jdk 1.5 version got changed into JRE System Library[JavaSE-1.8]
