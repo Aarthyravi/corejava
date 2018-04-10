@@ -24,6 +24,10 @@
   * Build / Project Management Tool
   
   * Maven defaultly take, JDK 1.5 version go to pom.xml and add the following build plugin to update the project to take jdk version 1.8
+  * pom.xml(Project Object Model)
+      - It tells what project object is available
+      - we have to add any third pary Libraries in pom.xml file within <dependency>...</dependency>
+  * maven clean --> it clean the entire target folder.(jar & class files too)
 
         <build>
          <plugins>
@@ -43,6 +47,7 @@
   * goto maven project --> right click ---> Maven ---> Update Project...
   * wow... Suddenly Jdk 1.5 version got changed into JRE System Library[JavaSE-1.8]
   * If we click Run As---> maven install, then we can see the jar file.
+      - maven install -->it creates a folder called target and put the .jar / .war file and the class files in classes folder
       - [INFO] Building jar: C:\Users\Ravi\eclipse-workspace\helloworld\target\helloworld-0.0.1-SNAPSHOT.jar
   * jar file run on server
   * so, goto command prompt, type 
@@ -50,5 +55,5 @@
       * C:\Users\Ravi\eclipse-workspace\helloworld>java -cp target/helloworld-0.0.1-SNAPSHOT.jar com.sample.util.App
          -Hello World!
       
-     - 
+     
   
