@@ -1,4 +1,18 @@
 # Core Java
+ ## Eclipse workspace
+   java project -> core java project
+   spring boot project -> Spring Starter
+   Enterprise web application -> dynamic web app
+  Mostly we will use one of them.
+ * .class file is the  target file in java application.
+ * when you build a huge project lot of classes are there,then we have to zip that files.
+ * All *.class files are three types of file --> arch file(group of .class files and external files[config files,property files]
+ * Three types of archives files 
+            .jar --> java archive -> core Java 
+            .war --> web archive -> core java + adv.java + HTML +serverlet
+            .ear --> Enterprise archive ->  core java + adv.java + HTML +serverlet + EJB(Enterprise JavaBeans that is the server-side  
+                                                                                         component architecture for Java Platform)
+ 
  ## String
  * String pool - String pool which is used to store the String values in Java(Collection memory of string type)
  * Heap memory -  Heap memory is used to store any created objects in Java. 
@@ -21,6 +35,8 @@
    throws
 
  ## Maven Project  
+     Apache Maven --> pom.xml
+     Gradle --> build.gradle 
   * Build / Project Management Tool
   
   * Maven defaultly take, JDK 1.5 version go to pom.xml and add the following build plugin to update the project to take jdk version 1.8
