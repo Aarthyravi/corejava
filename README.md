@@ -7,7 +7,7 @@
  * .class file is the  target file in java application.
  * when you build a huge project lot of classes are there,then we have to zip that files.
  * All *.class files are three types of file --> arch file(group of .class files and external files[config files,property files]
- * Three types of archives files 
+    * Three types of archives files 
             .jar --> java archive -> core Java 
             .war --> web archive -> core java + adv.java + HTML +serverlet
             .ear --> Enterprise archive ->  core java + adv.java + HTML +serverlet + EJB(Enterprise JavaBeans that is the server-side  
